@@ -8,11 +8,11 @@ We currently don't have any real testing in place. If testing is something you'r
 
 ## Documentation
 
-Natlas documentation is powered by GitHub Pages. All documentation is written in markdown files and built using a static site generator. If you'd like to contribute documentation, please fork the [natlas.github.com](https://github.com/natlas/natlas.github.com) project and submit a Pull Request with your changes.
+Natlas documentation is powered by GitHub Pages. All documentation is written using Hugo with the Docsy theme. If you'd like to contribute documentation, please fork the [docs.natlas.io](https://github.com/natlas/docs.natlas.io) project and submit a Pull Request with your changes.
 
 ## Code
 
-Code contributions will be automatically analyzed by codeclimate and LGTM, which have been configured to enforce our style guides. For python, that means that we mostly follow PEP8 with a few exceptions, foremost being that we indent all python code with tabs - **NOT** spaces. This is a decision made for code accessibility and allows each developer to display the code with the level of indentation that they want without having to use any complicated re-indention processes.
+Code contributions will be automatically analyzed by codeclimate and LGTM, which have been configured to enforce our style guides. For python, that means that we mostly follow PEP8 with a few exceptions - those being the exceptions required by the [black](https://github.com/psf/black) code formatter. This is a decision made for code accessibility and allows each developer to display the code with the level of indentation that they want without having to use any complicated re-indention processes.
 
 As is the requirement with all projects hosted on Github, all contributions to natlas projects will be automatically licensed under whatever the license of the project is. The preferred license for natlas projects at this time is [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/).
 
